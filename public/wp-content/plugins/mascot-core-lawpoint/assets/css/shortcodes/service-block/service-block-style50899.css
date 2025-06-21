@@ -1,0 +1,65 @@
+.tm-sc-service .icon {
+  display: inline-block;
+}
+.tm-sc-service .icon,
+.tm-sc-service .feature-title,
+.tm-sc-service .feature-details {
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.service-block-style5 .service-item {
+  text-align: center;
+  padding: 50px 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1019607843);
+  transition: all 300ms ease;
+}
+body.tm-dark-layout .service-block-style5 .service-item {
+  border-color: rgba(255, 255, 255, 0.1019607843);
+}
+.service-block-style5 .service-item .service-icon {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  border-radius: 50%;
+  transition: var(--transition);
+  border-radius: 0;
+  margin: 30px auto;
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 45px;
+  transition: all 300ms ease;
+  background-color: #121c27;
+  color: #fff;
+  transition: all 300ms ease;
+}
+body.tm-dark-layout .service-block-style5 .service-item .service-icon {
+  background-color: #162230;
+}
+.service-block-style5 .service-item .service-icon svg {
+  transition: 0.9s;
+}
+.service-block-style5 .service-item .service-details {
+  max-width: 340px;
+  margin: 20px;
+}
+.service-block-style5 .service-item .btn-more {
+  margin-top: 20px;
+}
+.service-block-style5 .service-item:hover {
+  border: 1px solid transparent;
+  background-color: #fff;
+}
+body.tm-dark-layout .service-block-style5 .service-item:hover {
+  background-color: #131b24;
+}
+.service-block-style5 .service-item:hover .service-icon {
+  border-radius: 100%;
+}
+.service-block-style5 .service-item:hover .service-icon svg {
+  transform: rotateY(-360deg);
+}

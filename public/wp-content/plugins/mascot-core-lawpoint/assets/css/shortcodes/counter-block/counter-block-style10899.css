@@ -1,0 +1,16 @@
+.counter-block-style1 .counter {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #fff;
+  font-size: 136px;
+  line-height: 136px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  margin-bottom: 25px;
+}
+.counter-block-style1 .counter span {
+  color: inherit;
+}
+.counter-block-style1 .title {
+  color: #fff;
+}

@@ -1,0 +1,92 @@
+.tm-sc-features .icon {
+  display: inline-block;
+}
+.tm-sc-features .icon,
+.tm-sc-features .features-title,
+.tm-sc-features .features-details {
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.feature-side-line {
+  position: relative;
+}
+.feature-side-line .icon-box-wrapper:after {
+  content: "";
+  background: #333;
+  width: 2px;
+  position: absolute;
+  left: 25px;
+  top: 60px;
+  bottom: -12px;
+}
+@media (max-width: 575.98px) {
+  .feature-side-line .icon-box-wrapper:after {
+    display: none;
+  }
+}
+
+@keyframes iconBounceIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.3);
+    -ms-transform: scale(0.3);
+    transform: scale(0.3);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+  70% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+}
+.features-block-style6 .inner-box .feature-item {
+  position: relative;
+  z-index: 1;
+  padding: 0 50px;
+  border-right: 1px solid rgba(0, 0, 0, 0.1019607843);
+  height: 100%;
+}
+body.tm-dark-layout .features-block-style6 .inner-box .feature-item {
+  border-right: 1px solid rgba(214, 214, 214, 0.1019607843);
+}
+@media (max-width: 1399.98px) {
+  .features-block-style6 .inner-box .feature-item {
+    padding: 30px 50px;
+  }
+}
+@media (max-width: 1399.98px) {
+  .features-block-style6 .inner-box .feature-item {
+    padding: 30px;
+    border: none;
+  }
+}
+.features-block-style6 .inner-box .feature-item:hover .icon {
+  animation: iconBounceIn 1s forwards;
+}
+.features-block-style6 .inner-box .feature-item .icon {
+  display: inline-block;
+  font-size: 70px;
+  line-height: 1;
+}
+.features-block-style6 .inner-box .feature-item .content .features-title {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.features-block-style6 .inner-box .feature-item .content .features-details {
+  line-height: 30px;
+}
+
+.features-item:last-child .features-block-style6 .feature-item {
+  border: none;
+}

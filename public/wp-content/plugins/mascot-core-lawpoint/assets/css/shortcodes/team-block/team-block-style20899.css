@@ -1,0 +1,89 @@
+.team-current-theme2 .team-info {
+  position: relative;
+  z-index: 1;
+}
+.team-current-theme2 .team-info:hover .social-links {
+  opacity: 1;
+  margin-bottom: 0;
+}
+.team-current-theme2 .team-info:hover .social-links a {
+  color: #fff;
+}
+.team-current-theme2 .team-info:hover .content {
+  padding: 40px 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(20px);
+  background-color: rgba(194, 194, 194, 0.4);
+}
+.team-current-theme2 .team-info:hover .content .social-links {
+  margin-bottom: 0;
+  opacity: 1;
+  visibility: visible;
+}
+.team-current-theme2 .team-info:hover .content .team-title {
+  color: #fff;
+}
+.team-current-theme2 .team-info:hover .content .team-title:before {
+  background-color: #fff;
+}
+.team-current-theme2 .team-info:hover .content .team-subtitle {
+  color: #fff;
+}
+.team-current-theme2 .team-info .image img {
+  width: 100%;
+}
+.team-current-theme2 .team-info .content {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  width: 90%;
+  padding: 25px;
+  background-color: #fff;
+  transition: all 300ms ease;
+  text-align: center;
+  margin: 0 auto;
+}
+body.tm-dark-layout .team-current-theme2 .team-info .content {
+  background-color: #16202b;
+}
+.team-current-theme2 .team-info .content .team-title {
+  margin: 0;
+  position: relative;
+  display: inline-block;
+}
+.team-current-theme2 .team-info .content .team-title a:hover, .team-current-theme2 .team-info .content .team-title a:focus {
+  color: #fff;
+}
+body.tm-dark-layout .team-current-theme2 .team-info .content .team-title a:hover, body.tm-dark-layout .team-current-theme2 .team-info .content .team-title a:focus {
+  color: #fff;
+}
+.team-current-theme2 .team-info .content .team-title:before {
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  width: 0;
+  height: 1px;
+  content: "";
+  background-color: #121c27;
+  transition: all 300ms ease;
+}
+.team-current-theme2 .team-info .content .team-title:hover:before {
+  right: unset;
+  left: 0;
+  width: 100%;
+}
+.team-current-theme2 .team-info .content .social-links {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: -40px;
+  opacity: 0;
+  color: #fff;
+  transition: all 300ms ease;
+}
+.team-current-theme2 .team-info .content .social-links a:hover {
+  transform: translateY(-3px);
+}

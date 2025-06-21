@@ -1,0 +1,107 @@
+.tm-sc-features .icon {
+  display: inline-block;
+}
+.tm-sc-features .icon,
+.tm-sc-features .features-title,
+.tm-sc-features .features-details {
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.feature-side-line {
+  position: relative;
+}
+.feature-side-line .icon-box-wrapper:after {
+  content: "";
+  background: #333;
+  width: 2px;
+  position: absolute;
+  left: 25px;
+  top: 60px;
+  bottom: -12px;
+}
+@media (max-width: 575.98px) {
+  .feature-side-line .icon-box-wrapper:after {
+    display: none;
+  }
+}
+
+.features-block-style7 .feature-item {
+  background-color: #fff;
+  padding: 20px 30px;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1019607843);
+}
+body.tm-dark-layout .features-block-style7 .feature-item {
+  background-color: #16202b;
+}
+.features-block-style7 .feature-item::after {
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  content: "";
+  background-color: var(--theme-color1);
+  transition: all 300ms ease;
+}
+.features-block-style7 .feature-item .features-title {
+  margin-top: 0;
+}
+.features-block-style7 .feature-item .icon {
+  display: inline-block;
+  transition: 0.9s;
+  font-size: 40px;
+}
+.features-block-style7 .feature-item .icon svg path {
+  transition: all 300ms ease;
+}
+.features-block-style7 .feature-item .arry-btn {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  transition: var(--transition);
+  color: #121c27;
+  border: 1px solid rgba(0, 0, 0, 0.1019607843);
+  transition: all 300ms ease;
+}
+body.tm-dark-layout .features-block-style7 .feature-item .arry-btn {
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.2196078431);
+}
+.features-block-style7 .feature-item .arry-btn:hover {
+  transform: rotate(45deg);
+}
+.features-block-style7 .feature-item .content {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.features-block-style7 .feature-item:hover .icon {
+  color: #fff;
+  transform: rotateY(-360deg);
+}
+.features-block-style7 .feature-item:hover .icon svg path {
+  fill: #fff;
+}
+.features-block-style7 .feature-item:hover .arry-btn {
+  color: #fff;
+  border: 1px solid #fff;
+}
+.features-block-style7 .feature-item:hover .features-title {
+  color: #fff;
+}
+.features-block-style7 .feature-item:hover::after {
+  width: 100%;
+  right: 0;
+  left: unset;
+}

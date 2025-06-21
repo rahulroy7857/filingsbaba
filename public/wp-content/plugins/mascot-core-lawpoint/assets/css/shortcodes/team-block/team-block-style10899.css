@@ -1,0 +1,95 @@
+.team-current-theme1 .team-content {
+  position: relative;
+  overflow: hidden;
+}
+.team-current-theme1 .team-content:hover .social-wrap {
+  opacity: 1;
+  visibility: visible;
+  transform: unset;
+}
+.team-current-theme1 .team-content .team-image img {
+  width: 100%;
+}
+.team-current-theme1 .team-content.have-margin {
+  margin-top: -60px;
+}
+@media (max-width: 575.98px) {
+  .team-current-theme1 .team-content.have-margin {
+    margin-top: 0;
+  }
+}
+.team-current-theme1 .team-content .team-title {
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+body.tm-dark-layout .team-current-theme1 .team-content .team-title a:hover,
+body.tm-dark-layout .team-current-theme1 .team-content .team-title a:focus {
+  color: #fff;
+}
+.team-current-theme1 .team-content .social-wrap {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  transition: all 300ms ease;
+  transform: translateY(-50%);
+  z-index: 3;
+  background-color: var(--theme-color1);
+  transform: translateX(10px) rotate(-5deg);
+  opacity: 0;
+}
+.team-current-theme1 .team-content .social-wrap:hover .social-links {
+  transform: scaleY(1);
+  opacity: 1;
+  visibility: visible;
+}
+.team-current-theme1 .team-content .social-links {
+  position: absolute;
+  right: 0;
+  top: 50px;
+  margin-bottom: -18px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  transform: scaleY(0);
+  transform-origin: top;
+  z-index: 3;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 400ms ease;
+}
+.team-current-theme1 .team-content .social-links li {
+  list-style: none;
+  list-style: none;
+  width: 46px;
+  height: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.team-current-theme1 .team-content .social-links li:first-child i::after {
+  display: none;
+}
+.team-current-theme1 .team-content .social-links a {
+  position: relative;
+  height: 46px;
+  width: 46px;
+  line-height: 46px;
+  text-align: center;
+  font-size: var(--body-font-size);
+  color: #fff;
+  background-color: var(--theme-color1);
+  margin-top: 5px;
+  border-radius: 50px;
+  transition: all 300ms ease;
+}
+.team-current-theme1 .team-content .social-links a:hover {
+  color: #fff;
+  background-color: var(--theme-color1);
+}

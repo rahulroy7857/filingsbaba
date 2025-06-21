@@ -1,0 +1,93 @@
+.tm-sc-working .icon {
+  display: inline-block;
+}
+.tm-sc-working .icon,
+.tm-sc-working .working-title,
+.tm-sc-working .working-details {
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.working-block:first-child .working-block-style1 .work-item {
+  border-top: 1px solid rgba(0, 0, 0, 0.1019607843);
+}
+.working-block .working-block-style1 {
+  position: relative;
+}
+.working-block .working-block-style1 .work-item {
+  padding: 40px 50px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1019607843);
+  border-top: none;
+  transition: all 300ms;
+  display: flex;
+  gap: 60px;
+}
+body.tm-dark-layout .working-block .working-block-style1 .work-item {
+  background-color: #16202b;
+  border: 1px solid #2a333d;
+}
+.working-block .working-block-style1 .work-item:hover .btn-view i {
+  transform: rotate(-45deg);
+}
+.working-block .working-block-style1 .work-item .working-count {
+  font-size: 128px;
+  line-height: 128px;
+  font-weight: 500;
+  font-family: var(--heading-font-family);
+  transition: all 300ms;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.2);
+}
+body.tm-dark-layout .working-block .working-block-style1 .work-item .working-count {
+  -webkit-text-stroke-color: rgba(255, 255, 255, 0.2);
+}
+@media (max-width: 575.98px) {
+  .working-block .working-block-style1 .work-item {
+    gap: 10px;
+    padding: 20px;
+    flex-direction: column;
+  }
+  .working-block .working-block-style1 .work-item .working-count {
+    font-size: 60px;
+    line-height: 60px;
+  }
+}
+.working-block .working-block-style1 .work-item .content .readMore-btn {
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+body.tm-dark-layout .working-block .working-block-style1 .work-item .content .readMore-btn {
+  color: #fff;
+}
+.working-block .working-block-style1 .work-item .content .readMore-btn i {
+  transition: all 300ms ease;
+}
+.working-block .working-block-style1 .work-item .content .readMore-btn:hover i {
+  padding-left: 5px;
+  transform: rotate(-45deg);
+}
+.working-block .working-block-style1 .work-item:hover {
+  background-color: #f5f5f5;
+  border: 1px solid #f5f5f5;
+  border-top: none;
+}
+body.tm-dark-layout .working-block .working-block-style1 .work-item:hover {
+  border-color: #2a333d;
+}
+.working-block .working-block-style1 .work-item:hover:nth-child {
+  border-top: 1px solid rgba(0, 0, 0, 0.1019607843);
+}
+.working-block .working-block-style1 .work-item:hover .working-count {
+  color: var(--theme-color2);
+  -webkit-text-fill-color: var(--theme-color2);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--theme-color2);
+}
+body.tm-dark-layout .working-block .working-block-style1 .work-item:hover .working-count {
+  -webkit-text-fill-color: #fff;
+}

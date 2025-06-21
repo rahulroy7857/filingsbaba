@@ -1,0 +1,101 @@
+.team-current-theme3 .team-content {
+  position: relative;
+  overflow: hidden;
+}
+.team-current-theme3 .team-content:hover .image img {
+  transform: scale(1.1);
+}
+.team-current-theme3 .team-content:hover .image::after {
+  height: 100%;
+}
+.team-current-theme3 .team-content:hover .image .social-links {
+  opacity: 1;
+}
+.team-current-theme3 .team-content:hover .image .social-links ul {
+  transform: scaleX(1);
+}
+.team-current-theme3 .team-content .team-title {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  position: relative;
+  display: inline-block;
+}
+.team-current-theme3 .team-content .team-title a:hover,
+.team-current-theme3 .team-content .team-title a:focus {
+  color: var(--theme-color1);
+}
+.team-current-theme3 .team-content .team-title:before {
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  width: 0;
+  height: 1px;
+  content: "";
+  background-color: #121c27;
+  transition: all 300ms ease;
+}
+.team-current-theme3 .team-content .team-title:hover:before {
+  right: unset;
+  left: 0;
+  width: 100%;
+}
+.team-current-theme3 .team-content .team-subtitle {
+  font-size: 14px;
+  line-height: 20px;
+}
+.team-current-theme3 .team-content .image {
+  position: relative;
+  overflow: hidden;
+}
+.team-current-theme3 .team-content .image img {
+  transition: 0.7s;
+  width: 100%;
+}
+.team-current-theme3 .team-content .image::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background-color: rgba(0, 0, 0, 0.1019607843);
+  content: "";
+  transition: all 300ms ease;
+}
+.team-current-theme3 .team-content .image .share-icon {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  transition: all 400ms ease;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  backdrop-filter: blur(10px);
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  cursor: pointer;
+  z-index: 1;
+}
+.team-current-theme3 .team-content .image .social-links {
+  width: 50px;
+  position: absolute;
+  bottom: 90px;
+  right: 28px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  transition: all 300ms ease;
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(10px);
+  border-radius: 50px;
+  padding: 30px 0;
+  opacity: 0;
+  z-index: 1;
+}
+.team-current-theme3 .team-content .image .social-links a {
+  color: #fff;
+}
+.team-current-theme3 .team-content .image .social-links a:hover {
+  color: #222;
+}

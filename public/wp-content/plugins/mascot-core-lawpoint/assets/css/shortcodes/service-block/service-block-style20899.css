@@ -1,0 +1,48 @@
+.tm-sc-service .icon {
+  display: inline-block;
+}
+.tm-sc-service .icon,
+.tm-sc-service .feature-title,
+.tm-sc-service .feature-details {
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.service-block-style2 {
+  padding: 20px 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1019607843);
+  display: block;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  transition: all 300ms ease;
+}
+body.tm-dark-layout .service-block-style2 {
+  border-color: rgba(255, 255, 255, 0.1019607843);
+}
+.service-block-style2 .service-title {
+  margin-top: 0;
+  padding-left: 30px;
+  border-left: 1px solid rgba(0, 0, 0, 0.1019607843);
+  transition: all 300ms ease;
+}
+body.tm-dark-layout .service-block-style2 .service-title {
+  border-color: rgba(255, 255, 255, 0.1882352941);
+}
+.service-block-style2 .service-title a:hover {
+  color: #fff;
+}
+.service-block-style2 .service-icon {
+  font-size: 48px;
+  line-height: 1;
+}
+.service-block-style2.active, .service-block-style2:hover {
+  background-color: var(--theme-color1);
+}
+.service-block-style2.active .service-title, .service-block-style2:hover .service-title {
+  color: #fff;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+.service-block-style2.active .service-icon, .service-block-style2:hover .service-icon {
+  color: #fff;
+}

@@ -1,0 +1,89 @@
+.tm-sc-projects .cat-list {
+  list-style: none;
+  margin: 0;
+}
+.tm-sc-projects .cat-list li {
+  display: inline;
+  color: #aaa;
+  margin-right: 7px;
+  font-size: 13px;
+}
+.tm-sc-projects .cat-list li a {
+  color: #aaa;
+  text-transform: capitalize;
+  transition: all 0.3s ease-in-out;
+}
+.tm-sc-projects .cat-list li:last-child span {
+  display: none;
+}
+
+.projects-skin-current-theme1 {
+  position: relative;
+}
+.projects-skin-current-theme1 .portfolio-item {
+  position: sticky;
+  top: 130px;
+  z-index: 1;
+}
+@media (max-width: 767.98px) {
+  .projects-skin-current-theme1 .portfolio-item {
+    top: 60px;
+  }
+}
+.projects-skin-current-theme1 .portfolio-item .image {
+  position: relative;
+}
+.projects-skin-current-theme1 .portfolio-item .image:after {
+  position: absolute;
+  background: linear-gradient(30deg, rgba(0, 0, 0, 0.6392156863), transparent);
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  content: "";
+}
+.projects-skin-current-theme1 .portfolio-item .content {
+  position: absolute;
+  bottom: 30px;
+  left: 40px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.projects-skin-current-theme1 .portfolio-item .content .count {
+  font-size: 96px;
+  line-height: 100px;
+  color: #fff;
+  font-weight: 500;
+  position: relative;
+  margin: 0;
+}
+.projects-skin-current-theme1 .portfolio-item .content .count:after {
+  counter-increment: my-sec-counter;
+  content: counter(my-sec-counter, decimal-leading-zero);
+}
+.projects-skin-current-theme1 .portfolio-item .content .title {
+  color: #fff;
+  max-width: 385px;
+}
+.projects-skin-current-theme1 .portfolio-item .content .title a:hover,
+.projects-skin-current-theme1 .portfolio-item .content .title a:focus {
+  color: #fff;
+}
+.projects-skin-current-theme1 .portfolio-item .content .title a {
+  font-family: var(--heading-font-family);
+  text-decoration: none;
+  display: inline-block;
+  color: inherit;
+  transition: all 300ms ease;
+}
+@media (max-width: 575.98px) {
+  .projects-skin-current-theme1 .portfolio-item .content {
+    left: 20px;
+    bottom: 20px;
+  }
+  .projects-skin-current-theme1 .portfolio-item .content .number {
+    font-size: 60px;
+    line-height: 60px;
+  }
+}
