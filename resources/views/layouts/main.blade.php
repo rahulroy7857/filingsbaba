@@ -72,7 +72,7 @@
 
    <body class="home wp-singular page-template-default page page-id-7139 wp-theme-lawpoint theme-lawpoint woocommerce-no-js menu-full-page tm-enable-localscroll tm_elementor_page_status_false tm-header-sticky tm-header-sticky-always tm-header-sticky-mobile tm-header-sticky-mobile-always tm-stretched-layout container-1340px tm-enable-element-animation-effect elementor-default elementor-kit-30633 elementor-page elementor-page-7139" itemscope itemtype="https://schema.org/WebPage">
       <div id="wrapper">
-         <div id="preloader" class="three-layer-loaderbg">
+         {{-- <div id="preloader" class="three-layer-loaderbg">
             <div id="spinner">
                <div class="preloader-dot-loading">
                   <div class="cssload-loading">
@@ -96,7 +96,7 @@
             <div class="layer">
                <span class="overlay"></span>
             </div>
-         </div>
+         </div> --}}
 
          <header id="header" class="header header-layout-type-header-default">
             <div id="elementor-header-top">
