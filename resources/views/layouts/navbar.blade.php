@@ -7,12 +7,12 @@
     </li>
     <li id="menu-item-22009"
         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-22009">
-        <a title="GSTServices" class="menu-item-link" href="#">
+        <a title="GSTServices" class="menu-item-link" href="{{route('gst.index')}}">
             <span>GST Services</span>
         </a>
         <ul class="dropdown">
             <li id="menu-item-22014" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22014">
-                <a title="GST Registration" class="menu-item-link" href="#">
+                <a title="GST Registration" class="menu-item-link" href="{{route('gst.index')}}">
                     <span>GST Registration</span>
                 </a>
             </li>
@@ -64,12 +64,12 @@
        
     </li>
     <li id="menu-item-36428" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36428">
-        <a title="Startup" class="menu-item-link" href="#">
+        <a title="Startup" class="menu-item-link" href="{{route('proprietorship')}}">
             <span>Startup</span>
         </a>
         <ul class="dropdown">
             <li id="menu-item-36429" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36429">
-                <a title="Proprietorship" class="menu-item-link" href="#">
+                <a title="Proprietorship" class="menu-item-link" href="{{route('proprietorship')}}">
                     <span>Proprietorship</span>
                 </a>
             </li>

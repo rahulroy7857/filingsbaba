@@ -35,6 +35,14 @@
     
       <link rel="stylesheet" href="{{ asset('main/main.css?ver=3.0')}}" type="text/css" media="all" />
 
+      <!-- Bootstrap CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+      <!-- Font Awesome -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+      <link rel="stylesheet" href="{{ asset('bootstrap/bootstrap.css?ver=4.0')}}" type="text/css" media="all" />
+
       <link rel="stylesheet" id="lawpoint-style-main-css" href="{{ asset('wp-content/themes/lawpoint/assets/css/style-main6aec.css?ver=3.0')}}" type="text/css" media="all" />     
 
       <link rel="stylesheet" id="lawpoint-primary-theme-color-css" href="{{ asset('wp-content/themes/lawpoint/assets/css/colors/theme-skin-color-set10899.css?ver=6.8.1')}}" type="text/css" media="all" />

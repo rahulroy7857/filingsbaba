@@ -5,8 +5,10 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\ProprietorshipController;
+use App\Http\Controllers\GstController;
+
 //use App\Http\Controllers\ServiceController;
-// use App\Http\Controllers\GstController;
 // use App\Http\Controllers\FssaiController;
 // use App\Http\Controllers\TrademarkController;
 // use App\Http\Controllers\CompanyController;
@@ -18,6 +20,10 @@ use App\Http\Controllers\ContactController;
 Route::get('/',[HomeController::class,'index'])->name('Home');
 
 Route::get('/about', [AboutController::class, 'index'])->name('about');
+
+
+Route::get('/proprietorship', [ProprietorshipController::class, 'proprietorship_index'])->name('proprietorship');
+
 
 // Contact routes
 Route::get('/contact', [ContactController::class, 'index'])->name('contact');

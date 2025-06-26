@@ -45,6 +45,15 @@ h1.entry-title {
 .alert-success {
     color: rgb(9, 230, 9);
 }
+
+.boxshadowrow {
+    background-color: #dcdae5c2;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+    transition: box-shadow 0.3s ease;
+}
 @media (max-width: 1024px) {
     .elementor-section.elementor-section-boxed > .elementor-container {
         max-width: 1024px;
@@ -5895,10 +5904,6 @@ h1.entry-title {
     }
 }
 
-.tm-text-editor p {
-    color: #fff;
-}
-
 .elementor-kit-30633 {
     --e-global-color-primary: #6ec1e4;
     --e-global-color-secondary: #54595f;
@@ -5968,7 +5973,7 @@ h1.entry-title {
     --container-widget-flex-grow: 0;
     --container-widget-align-self: initial;
     --flex-wrap-mobile: wrap;
-    --padding-top: 120px;
+    --padding-top: 80px;
     --padding-bottom: 110px;
     --padding-left: 10px;
     --padding-right: 10px;
@@ -5993,7 +5998,7 @@ h1.entry-title {
     --justify-content: space-between;
     border-style: solid;
     --border-style: solid;
-    border-width: 0px 0px 1px 0px;
+    border-width: 0px 0px 0px 0px;
     --border-top-width: 0px;
     --border-right-width: 0px;
     --border-bottom-width: 1px;
@@ -6001,11 +6006,11 @@ h1.entry-title {
     border-color: #00000026;
     --border-color: #00000026;
     --margin-top: 0px;
-    --margin-bottom: 50px;
+    --margin-bottom: 10px;
     --margin-left: 0px;
     --margin-right: 0px;
     --padding-top: 0px;
-    --padding-bottom: 90px;
+    --padding-bottom: 50px;
     --padding-left: 10px;
     --padding-right: 10px;
 }
@@ -6435,7 +6440,7 @@ h1.entry-title {
     }
 
     .elementor-36353 .elementor-element.elementor-element-27f2b5d {
-        --width: 48%;
+        --width: 90%;
     }
 
     .elementor-36353 .elementor-element.elementor-element-d6dd154 {
