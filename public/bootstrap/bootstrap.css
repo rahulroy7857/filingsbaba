@@ -285,7 +285,7 @@ body {
     text-align: center;
 }
 
-.footer {
+/* .footer {
     background-color: #1a237e;
     color: white;
     padding: 60px 0 30px;
@@ -333,7 +333,7 @@ body {
     text-align: center;
     margin-right: 10px;
     color: var(--if-secondary);
-}
+} */
 
 @media (max-width: 768px) {
     .hero-content h1 {

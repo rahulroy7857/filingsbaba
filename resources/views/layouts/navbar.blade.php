@@ -64,32 +64,32 @@
        
     </li>
     <li id="menu-item-36428" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36428">
-        <a title="Startup" class="menu-item-link" href="{{route('proprietorship')}}">
+        <a title="Startup" class="menu-item-link" href="{{route('startup.proprietorship')}}">
             <span>Startup</span>
         </a>
         <ul class="dropdown">
             <li id="menu-item-36429" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36429">
-                <a title="Proprietorship" class="menu-item-link" href="{{route('proprietorship')}}">
+                <a title="Proprietorship" class="menu-item-link" href="{{route('startup.proprietorship')}}">
                     <span>Proprietorship</span>
                 </a>
             </li>
             <li id="menu-item-36430" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36430">
-                <a title="Proprietorship" class="menu-item-link" href="#">
+                <a title="Proprietorship" class="menu-item-link" href="{{route('startup.partnership')}}"> 
                     <span>Partnership</span>
                 </a>
             </li>
             <li id="menu-item-36431" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36431">
-                <a title="One Person Company" class="menu-item-link" href="#">
+                <a title="One Person Company" class="menu-item-link" href="{{route('startup.one-person-company')}}">
                     <span>One Person Company</span>
                 </a>
             </li>
             <li id="menu-item-36432" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36432">
-                <a title="Limited Liability Partnership" class="menu-item-link" href="#">
+                <a title="Limited Liability Partnership" class="menu-item-link" href="{{route('startup.limited-liability-partnership')}}">
                     <span>Limited Liability Partnership</span>
                 </a>
             </li>
             <li id="menu-item-36433" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36433">
-                <a title="Private Limited Company" class="menu-item-link" href="#">
+                <a title="Private Limited Company" class="menu-item-link" href="{{route('startup.private-limited-company')}}">
                     <span>Private Limited Company</span>
                 </a>
             </li>

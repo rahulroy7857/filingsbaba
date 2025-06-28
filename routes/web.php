@@ -22,7 +22,15 @@ Route::get('/',[HomeController::class,'index'])->name('Home');
 Route::get('/about', [AboutController::class, 'index'])->name('about');
 
 
-Route::get('/proprietorship', [ProprietorshipController::class, 'proprietorship_index'])->name('proprietorship');
+Route::prefix('startup')->name('startup.')->group(function () {
+    Route::get('/proprietorship', [ProprietorshipController::class, 'proprietorship_index'])->name('proprietorship');
+    Route::get('/partnership', [ProprietorshipController::class, 'partnership'])->name('partnership');
+    Route::get('/one-person-company', [ProprietorshipController::class, 'onePersonCompany'])->name('one-person-company');    
+    Route::get('/limited-liability-partnership', [ProprietorshipController::class, 'limitedLiabilityLPartnership'])->name('limited-liability-partnership');    
+    Route::get('/private-limited-company', [ProprietorshipController::class, 'privateLimitedCompany'])->name('private-limited-company');
+    
+});
+//Route::get('/proprietorship', [ProprietorshipController::class, 'proprietorship_index'])->name('proprietorship');
 
 
 // Contact routes
