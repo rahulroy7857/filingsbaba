@@ -1,5 +1,5 @@
 @extends('layouts.main')
-@section('title', 'partnership- FilingsBaba')
+@section('title', 'private-limited-company- FilingsBaba')
 @section('content')
 <?php
 $services = [

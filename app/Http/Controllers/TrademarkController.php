@@ -9,49 +9,36 @@ class TrademarkController extends Controller
 {
     public function index()
     {
-        $trademarkServices = Service::active()->byCategory('Trademark')->orderBy('sort_order')->get();
-        return view('services.trademark.index', compact('trademarkServices'));
-    }
-
-    public function registration()
+        return view('services.trademark.trademarkregistration');       
+    }   
+    
+    public function trademarkregistration()
     {
-        $service = Service::active()->where('slug', 'trademark-registration')->first();
-        return view('services.trademark.registration', compact('service'));
+        return view('services.trademark.trademarkregistration');
     }
-
-    public function renewal()
+    
+    public function trademarkobjection()
     {
-        $service = Service::active()->where('slug', 'trademark-renewal')->first();
-        return view('services.trademark.renewal', compact('service'));
+        return view('services.trademark.trademarkobjection');       
     }
-
-    public function objection()
+    
+    public function trademarkopposition()
     {
-        $service = Service::active()->where('slug', 'trademark-objection')->first();
-        return view('services.trademark.objection', compact('service'));
+        return view('services.trademark.trademarkopposition');       
     }
-
-    public function opposition()
+    
+    public function trademarkcertificate()
     {
-        $service = Service::active()->where('slug', 'trademark-opposition')->first();
-        return view('services.trademark.opposition', compact('service'));
+        return view('services.trademark.trademarkcertificate');       
     }
-
-    public function assignment()
+    
+    public function trademarkhearing()
     {
-        $service = Service::active()->where('slug', 'trademark-assignment')->first();
-        return view('services.trademark.assignment', compact('service'));
+        return view('services.trademark.trademarkhearing');       
     }
-
-    public function series()
+    
+    public function trademarkrenewal()
     {
-        $service = Service::active()->where('slug', 'series-trademark')->first();
-        return view('services.trademark.series', compact('service'));
-    }
-
-    public function copyright()
-    {
-        $service = Service::active()->where('slug', 'copyright-registration')->first();
-        return view('services.trademark.copyright', compact('service'));
+        return view('services.trademark.trademarkrenewal');       
     }
 } 

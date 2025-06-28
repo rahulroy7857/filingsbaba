@@ -104,8 +104,10 @@
                         expert assistance at every step.</p>
 
                     <ul class="list-unstyled">
-                        <li class="mb-3"><i class="fas fa-check-circle text-success me-2"></i> <strong>2000+
-                                Proprietorships Registered</strong> - Trusted by businesses across India</li>
+                        <li class="mb-3">
+                            <i class="fas fa-check-circle text-success me-2"></i> 
+                            <strong>2000+ Proprietorships Registered</strong> - Trusted by businesses across India
+                        </li>
                         <li class="mb-3"><i class="fas fa-check-circle text-success me-2"></i> <strong>4.9/5 Customer
                                 Rating</strong> - Highest rated business registration platform</li>
                         <li class="mb-3"><i class="fas fa-check-circle text-success me-2"></i> <strong>7-10 Day

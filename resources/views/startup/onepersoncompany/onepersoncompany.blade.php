@@ -1,5 +1,5 @@
 @extends('layouts.main')
-@section('title', 'partnership- FilingsBaba')
+@section('title', 'one-person-company- FilingsBaba')
 @section('content')
 
     <!-- Hero Section -->
