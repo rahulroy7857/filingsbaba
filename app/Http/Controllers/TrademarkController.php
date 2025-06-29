@@ -12,10 +12,10 @@ class TrademarkController extends Controller
         return view('services.trademark.trademarkregistration');       
     }   
     
-    public function trademarkregistration()
-    {
-        return view('services.trademark.trademarkregistration');
-    }
+    // public function trademarkregistration()
+    // {
+    //     return view('services.trademark.trademarkregistration');
+    // }
     
     public function trademarkobjection()
     {

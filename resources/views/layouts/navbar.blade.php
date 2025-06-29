@@ -32,23 +32,23 @@
     </li>
     <li id="menu-item-36303"
         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-36303">
-        <a title="FSSAI License" class="menu-item-link" href="#">
+        <a title="FSSAI License" class="menu-item-link" href="{{ route('fssai.index') }}">
             <span>FSSAI License</span>
         </a>
         <ul class="dropdown">
 
             <li id="menu-item-36304" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36304">
-                <a title="FSSAI Registration" class="menu-item-link" href="#">
+                <a title="FSSAI Registration" class="menu-item-link" href="{{ route('fssai.index') }}">
                     <span>FSSAI Registration</span>
                 </a>
             </li>
             <li id="menu-item-36305" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36305">
-                <a title="FSSAI Renewal" class="menu-item-link" href="#">
+                <a title="FSSAI Renewal" class="menu-item-link" href="{{ route('fssai.renewal') }}">
                     <span>FSSAI Renewal</span>
                 </a>
             </li>
             <li id="menu-item-36306" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36306">
-                <a title="FSSAI Modification" class="menu-item-link" href="#">
+                <a title="FSSAI Modification" class="menu-item-link" href="{{ route('fssai.modification') }}">
                     <span>FSSAI Modification</span>
                 </a>
             </li>
@@ -63,7 +63,7 @@
         </a>
         <ul class="dropdown">
             <li id="menu-item-36423" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36429">
-                <a title="Trademark Registration" class="menu-item-link" href="{{ route('trademark.registration') }}">
+                <a title="Trademark Registration" class="menu-item-link" href="{{ route('trademark.index') }}">
                     <span>Trademark Registration</span>
                 </a>
             </li>
@@ -133,7 +133,7 @@
 
     </li>
     <li id="menu-item-36435" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36435">
-        <a title="Compliance" class="menu-item-link" href="#">
+        <a title="Compliance" class="menu-item-link" href="{{ route('compliance.index') }}">
             <span>Compliance</span>
         </a>
         <div class="megamenu megamenu-fullwidth-fullwindow megamenu-position-right">
@@ -142,31 +142,36 @@
                     <ul class="list-unstyled list-dashed">
                         <li id="menu-item-36305"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36305">
-                            <a title="Company Compliance" class="menu-item-link" href="#">
+                            <a title="Company Compliance" class="menu-item-link"
+                                href="{{ route('compliance.company-compliance') }}">
                                 <span>Company Compliance</span>
                             </a>
                         </li>
                         <li id="menu-item-36306"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36306">
-                            <a title="LLP Compliance" class="menu-item-link" href="#">
+                            <a title="LLP Compliance" class="menu-item-link"
+                                href="{{ route('compliance.llp-compliance') }}">
                                 <span>LLP Compliance</span>
                             </a>
                         </li>
                         <li id="menu-item-36307"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36307">
-                            <a title="OPC Compliance" class="menu-item-link" href="#">
+                            <a title="OPC Compliance" class="menu-item-link"
+                                href="{{ route('compliance.opc-compliance') }}">
                                 <span>OPC Compliance</span>
                             </a>
                         </li>
                         <li id="menu-item-36308"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36308">
-                            <a title="Name Change - Company" class="menu-item-link" href="#">
+                            <a title="Name Change - Company" class="menu-item-link"
+                                href="{{ route('compliance.name-change-company') }}">
                                 <span>Name Change - Company</span>
                             </a>
                         </li>
                         <li id="menu-item-36309"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36309">
-                            <a title="Registered Office Change" class="menu-item-link" href="#">
+                            <a title="Registered Office Change" class="menu-item-link"
+                                href="{{ route('compliance.registered-office-change') }}">
                                 <span>Registered Office Change</span>
                             </a>
                         </li>
@@ -176,31 +181,36 @@
                     <ul class="list-unstyled list-dashed">
                         <li id="menu-item-36310"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36310">
-                            <a title="DIN eKYC Filing" class="menu-item-link" href="#">
+                            <a title="DIN eKYC Filing" class="menu-item-link"
+                                href="{{ route('compliance.din-ekyc-filing') }}">
                                 <span>DIN eKYC Filing</span>
                             </a>
                         </li>
                         <li id="menu-item-36311"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36311">
-                            <a title="DIN Reactivation" class="menu-item-link" href="#">
+                            <a title="DIN Reactivation" class="menu-item-link"
+                                href="{{ route('compliance.din-reactivation') }}">
                                 <span>DIN Reactivation</span>
                             </a>
                         </li>
                         <li id="menu-item-36312"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36312">
-                            <a title="Director Change" class="menu-item-link" href="#">
+                            <a title="Director Change" class="menu-item-link"
+                                href="{{ route('compliance.director-change') }}">
                                 <span>Director Change</span>
                             </a>
                         </li>
                         <li id="menu-item-36313"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36313">
-                            <a title="Remove Director" class="menu-item-link" href="#">
+                            <a title="Remove Director" class="menu-item-link"
+                                href="{{ route('compliance.remove-director') }}">
                                 <span>Remove Director</span>
                             </a>
                         </li>
                         <li id="menu-item-36314"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36314">
-                            <a title="ADT-1 Filing" class="menu-item-link" href="#">
+                            <a title="ADT-1 Filing" class="menu-item-link"
+                                href="{{ route('compliance.adt1-filing') }}">
                                 <span>ADT-1 Filing</span>
                             </a>
                         </li>
@@ -210,31 +220,36 @@
                     <ul class="list-unstyled list-dashed">
                         <li id="menu-item-36315"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36315">
-                            <a title="DPT-3 Filing" class="menu-item-link" href="#">
+                            <a title="DPT-3 Filing" class="menu-item-link"
+                                href="{{ route('compliance.dpt3-filing') }}">
                                 <span>DPT-3 Filing</span>
                             </a>
                         </li>
                         <li id="menu-item-36316"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36316">
-                            <a title="LLP Form 11 Filing" class="menu-item-link" href="#">
+                            <a title="LLP Form 11 Filing" class="menu-item-link"
+                                href="{{ route('compliance.llp-form11-filing') }}">
                                 <span>LLP Form 11 Filing</span>
                             </a>
                         </li>
                         <li id="menu-item-36317"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36317">
-                            <a title=" Dormant Status Filing" class="menu-item-link" href="#">
+                            <a title=" Dormant Status Filing" class="menu-item-link"
+                                href="{{ route('compliance.dormant-status-filing') }}">
                                 <span>Dormant Status Filing</span>
                             </a>
                         </li>
                         <li id="menu-item-36318"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36318">
-                            <a title="MOA Amendment" class="menu-item-link" href="#">
+                            <a title="MOA Amendment" class="menu-item-link"
+                                href="{{ route('compliance.moa-amendment') }}">
                                 <span>MOA Amendment</span>
                             </a>
                         </li>
                         <li id="menu-item-36319"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36319">
-                            <a title="AOA Amendment" class="menu-item-link" href="#">
+                            <a title="AOA Amendment" class="menu-item-link"
+                                href="{{ route('compliance.aoa-amendment') }}">
                                 <span>AOA Amendment</span>
                             </a>
                         </li>
@@ -244,31 +259,36 @@
                     <ul class="list-unstyled list-dashed">
                         <li id="menu-item-36320"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36320">
-                            <a title="Authorized Capital Increase" class="menu-item-link" href="#">
+                            <a title="Authorized Capital Increase" class="menu-item-link"
+                                href="{{ route('compliance.authorized-capital-increase') }}">
                                 <span>Authorized Capital Increase</span>
                             </a>
                         </li>
                         <li id="menu-item-36321"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36321">
-                            <a title="Share Transfer" class="menu-item-link" href="#">
+                            <a title="Share Transfer" class="menu-item-link"
+                                href="{{ route('compliance.share-transfer') }}">
                                 <span>Share Transfer</span>
                             </a>
                         </li>
                         <li id="menu-item-36322"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36322">
-                            <a title="Demat of Shares" class="menu-item-link" href="#">
+                            <a title="Demat of Shares" class="menu-item-link"
+                                href="{{ route('compliance.demat-of-shares') }}">
                                 <span>Demat of Shares</span>
                             </a>
                         </li>
                         <li id="menu-item-36323"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36323">
-                            <a title="Winding Up - LLP" class="menu-item-link" href="#">
+                            <a title="Winding Up - LLP" class="menu-item-link"
+                                href="{{ route('compliance.winding-up-llp') }}">
                                 <span>Winding Up - LLP</span>
                             </a>
                         </li>
                         <li id="menu-item-36324"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36324">
-                            <a title="Winding Up - Company" class="menu-item-link" href="#">
+                            <a title="Winding Up - Company" class="menu-item-link"
+                                href="{{ route('compliance.winding-up-company') }}">
                                 <span>Winding Up - Company</span>
                             </a>
                         </li>
